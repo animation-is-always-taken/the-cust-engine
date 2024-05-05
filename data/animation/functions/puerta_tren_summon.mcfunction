@@ -1,0 +1,6 @@
+# Project created via BDStudio
+# https://eszesbalint.github.io/bdstudio
+
+# Command 1
+execute at @s run summon block_display ~ ~ ~ {Tags:[puerta_tren],Passengers:[{id:"minecraft:block_display",block_state:{Name:"minecraft:iron_door",Properties:{facing:"south",half:"lower",hinge:"right",open:"false"}},Tags:[puerta_tren],transformation:[1.0000f,0.0000f,0.0000f,-8.0000f,0.0000f,1.0000f,0.0000f,-4.0000f,0.0000f,0.0000f,1.0000f,-5.0000f,0.0000f,0.0000f,0.0000f,1.0000f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:iron_door",Properties:{facing:"south",half:"upper",hinge:"right",open:"false"}},Tags:[puerta_tren],transformation:[1.0000f,0.0000f,0.0000f,-8.0000f,0.0000f,1.0000f,0.0000f,-3.0000f,0.0000f,0.0000f,1.0000f,-5.0000f,0.0000f,0.0000f,0.0000f,1.0000f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:stone_button",Properties:{face:"wall",facing:"south",powered:"false"}},Tags:[puerta_tren],transformation:[1.0000f,0.0000f,0.0000f,-7.0000f,0.0000f,1.0000f,0.0000f,-3.0000f,0.0000f,0.0000f,1.0000f,-5.1250f,0.0000f,0.0000f,0.0000f,1.0000f]},{id:"minecraft:block_display",block_state:{Name:"minecraft:stone_button",Properties:{face:"wall",facing:"south",powered:"false"}},Tags:[puerta_tren],transformation:[1.0000f,0.0000f,0.0000f,-7.0000f,0.0000f,1.0000f,0.0000f,-3.0000f,0.0000f,0.0000f,1.0000f,-4.0000f,0.0000f,0.0000f,0.0000f,1.0000f]}]}
+

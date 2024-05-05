@@ -1,0 +1,1 @@
+tp @e[type=minecraft:block_display] @e[tag=tren,limit=1]

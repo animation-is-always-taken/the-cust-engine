@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {}
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:prismarine_shard"
+            ],
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "animation:sonar_check"
+  }
+}

@@ -1,0 +1,1 @@
+execute store result score @s rng run loot spawn ~ -128 ~ loot animation:port_rng

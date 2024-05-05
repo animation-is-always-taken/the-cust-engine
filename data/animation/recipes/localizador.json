@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:prismarine_shard",
+            "CustomModelData": 3
+        },
+        {
+            "item": "minecraft:compass"
+        }
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

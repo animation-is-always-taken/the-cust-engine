@@ -1,0 +1,8 @@
+{
+  "asset_id": "minecraft:buzo",
+  "description": {
+    "translate": "traje de buzo"
+  },
+  "template_item": "minecraft:copper_block",
+  "item_model_index": 0.85
+}
