@@ -1,0 +1,12 @@
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart1] ^-3 ^-7 ^4 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart2] ^-3 ^-7 ^3 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart3] ^-3 ^-7 ^2 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart4] ^0 ^-7 ^4 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart5] ^0 ^-7 ^3 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart6] ^0 ^-7 ^2 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart7] ^3 ^-7 ^4 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart8] ^3 ^-7 ^3 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart9] ^3 ^-7 ^2 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart10] ^-6 ^-7 ^4 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart11] ^-6 ^-7 ^3 ~ ~
+execute as @e[type=minecart,tag=tren,limit=1] at @s run tp @e[type=minecraft:minecart,tag=minecart12] ^-6 ^-7 ^2 ~ ~

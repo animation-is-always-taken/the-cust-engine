@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "nbt": "{Trim:{pattern:\"minecraft:buzo\"}}"
+                  },
+                  "chest": {
+                    "nbt": "{Trim:{pattern:\"minecraft:buzo\"}}"
+                  },
+                  "legs": {
+                    "nbt": "{Trim:{pattern:\"minecraft:buzo\"}}"
+                  },
+                  "feet": {
+                    "nbt": "{Trim:{pattern:\"minecraft:buzo\"}}"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "nbt": "{Trim:{pattern:\"minecraft:buzo\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "animation:buzo_end"
+  }
+}

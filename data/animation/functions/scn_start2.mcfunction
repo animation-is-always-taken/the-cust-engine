@@ -1,0 +1,2 @@
+execute at @a[x=31,y=41,z=92,distance=..50] as @a[x=31,y=41,z=92,distance=..50] run title @s title "Objetivos"
+execute at @a[x=31,y=41,z=92,distance=..50] as @a[x=31,y=41,z=92,distance=..50] run title @s subtitle "reparar la consola"

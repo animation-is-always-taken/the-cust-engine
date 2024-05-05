@@ -1,0 +1,14 @@
+execute as @e[type=minecraft:dolphin,tag=peter] at @s run tp @e[tag=peter_face,limit=1,sort=nearest,distance=..3] ~ ~-1 ~ ~180 ~
+execute as @e[type=minecraft:dolphin,tag=peter,sort=nearest] at @s run tp @e[tag=peter_body1,type=minecraft:armor_stand,limit=1,sort=nearest] ^ ^-0.5 ^-0.14 ~ ~
+execute as @e[type=minecraft:dolphin,tag=peter,sort=nearest] at @s run tp @e[tag=peter_body2,type=minecraft:armor_stand,limit=1,sort=nearest] ^ ^-0.5 ^-0.60 ~ ~
+execute as @e[type=minecraft:dolphin,tag=peter,sort=nearest] at @s run tp @e[tag=peter_body3,type=minecraft:armor_stand,limit=1,sort=nearest] ^ ^-0.5 ^-1 ~ ~
+execute as @e[type=minecraft:dolphin,tag=peter,sort=nearest] at @s run tp @e[tag=peter_body4,type=minecraft:armor_stand,limit=1,sort=nearest] ^ ^-0.5 ^-1.50 ~ ~
+execute as @e[type=minecraft:dolphin,tag=peter,sort=nearest] at @s run tp @e[tag=peter_body5,type=minecraft:armor_stand,limit=1,sort=nearest] ^ ^-0.5 ^-2 ~ ~
+execute as @e[type=minecraft:dolphin,tag=peter] at @s unless entity @e[type=minecraft:drowned,distance=..3] run kill @s
+execute as @e[type=minecraft:drowned,tag=peter] at @s unless entity @e[type=minecraft:dolphin,distance=..3] run kill @s
+execute as @e[type=minecraft:armor_stand,tag=peter_face] at @s unless entity @e[type=minecraft:dolphin,distance=..3] run kill @s
+execute as @e[type=minecraft:armor_stand,tag=peter_body1] at @s unless entity @e[type=minecraft:dolphin,distance=..3] run kill @s
+execute as @e[type=minecraft:armor_stand,tag=peter_body2] at @s unless entity @e[type=minecraft:dolphin,distance=..3] run kill @s
+execute as @e[type=minecraft:armor_stand,tag=peter_body3] at @s unless entity @e[type=minecraft:dolphin,distance=..3] run kill @s
+execute as @e[type=minecraft:armor_stand,tag=peter_body4] at @s unless entity @e[type=minecraft:dolphin,distance=..3] run kill @s
+execute as @e[type=minecraft:armor_stand,tag=peter_body5] at @s unless entity @e[type=minecraft:dolphin,distance=..3] run kill @s

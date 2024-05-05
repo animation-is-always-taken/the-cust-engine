@@ -1,0 +1,9 @@
+execute at @e[type=minecraft:fishing_bobber] if block ~ ~ ~ minecraft:end_gateway as @e[type=minecraft:fishing_bobber] run execute as @e[type=player,limit=1,sort=nearest] run function animation:rng
+execute at @e[type=minecraft:fishing_bobber] if block ~ ~ ~ minecraft:end_gateway as @e[type=minecraft:fishing_bobber] run execute as @e[type=player,limit=1,sort=nearest] if score @s rng matches 1 run summon sheep ~ ~ ~
+execute at @e[type=minecraft:fishing_bobber] if block ~ ~ ~ minecraft:end_gateway as @e[type=minecraft:fishing_bobber] run execute as @e[type=player,limit=1,sort=nearest] if score @s rng matches 2 run summon pig ~ ~ ~
+execute at @e[type=minecraft:fishing_bobber] if block ~ ~ ~ minecraft:end_gateway as @e[type=minecraft:fishing_bobber] run execute as @e[type=player,limit=1,sort=nearest] if score @s rng matches 3 run summon cow ~ ~ ~
+execute at @e[type=minecraft:fishing_bobber] if block ~ ~ ~ minecraft:end_gateway as @e[type=minecraft:fishing_bobber] run execute as @e[type=player,limit=1,sort=nearest] if score @s rng matches 4 run summon chicken ~ ~ ~
+execute at @e[type=minecraft:fishing_bobber] if block ~ ~ ~ minecraft:end_gateway as @e[type=minecraft:fishing_bobber] run execute as @e[type=player,limit=1,sort=nearest] if score @s rng matches 5 run function animation:peter_spawn
+execute at @e[type=minecraft:fishing_bobber] if block ~ ~ ~ minecraft:end_gateway as @e[type=minecraft:fishing_bobber] run execute as @e[type=player,limit=1,sort=nearest] if score @s rng matches 6 run function animation:bob_spawn
+execute at @e[type=minecraft:fishing_bobber] if block ~ ~ ~ minecraft:end_gateway as @e[type=minecraft:fishing_bobber] run execute as @e[type=player,limit=1,sort=nearest] if score @s rng matches 7 run tp @e[type=snow_golem,limit=1,name=mantel] ~ ~ ~
+execute at @e[type=minecraft:fishing_bobber] if block ~ ~ ~ minecraft:end_gateway as @e[type=minecraft:fishing_bobber] run kill @s
