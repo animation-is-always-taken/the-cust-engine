@@ -1,3 +1,6 @@
+# The cust engine
+the texture pack for the cust engine and the files to make it work with geyser
+
 a geyser-compatible datapack that adds:
 
 -custom mobs
