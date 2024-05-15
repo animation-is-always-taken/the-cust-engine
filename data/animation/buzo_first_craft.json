@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_helmet",
+      "components": {
+        "minecraft:custom_model_data": 1
+      }
+    },
+    "title": "Buceando",
+    "description": "Craftea un traje de buzo",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {}
+          }
+        ],
+        "recipe_id": "minecraft:buzo_helmet"
+      }
+    }
+  },
+  "rewards": {}
+}
+
