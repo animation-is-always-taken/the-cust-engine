@@ -1,7 +1,7 @@
 
 THIS IS A TEST BRANCH TO PORT THIS TO 1.20.6 EVERYTHING HERE IS EXPERIMENTAL EVEN IF IT SOMEHOW ISN'T BROKEN
 
-a geyser-compatible datapack that adds (untested):
+a geyser-compatible datapack that adds:
 
 -custom mobs
 
@@ -29,7 +29,7 @@ a geyser-compatible datapack that adds (untested):
 
 in short: a lot of commands to try to recreate subnautica with some creative liberties (i've never played subnautica)
 
-the geyser/bedrock files and java resource pack aren't included here (for now)
+the geyser/bedrock files and java resource pack are here https://github.com/animation-is-always-taken/cust-engine-extras
 
 every file with .dis/.disabled/.old is eather a backup, 1.20.4 branch code or old code that's useless or unoptimized
 
