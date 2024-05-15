@@ -29,7 +29,7 @@ a geyser-compatible datapack that adds:
 
 in short: a lot of commands to try to recreate subnautica with some creative liberties (i've never played subnautica)
 
-the geyser/bedrock files and java resource pack aren't included here (for now)
+the geyser/bedrock files and java resource pack can be found here https://github.com/animation-is-always-taken/cust-engine-extras
 
 
 i forgot to add the commands that set up the scoreboards on load.mcfunction, i'll do it eventually, so if you want to use this you're going to have to add them by hand (for now)
