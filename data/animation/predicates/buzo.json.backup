@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "armor.head": {
+        "items": "#minecraft:head_armor",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:buzo"
+          }
+        }
+      }
+    }
+  }
+}

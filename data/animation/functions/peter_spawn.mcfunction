@@ -1,5 +1,5 @@
 summon minecraft:dolphin ~ ~1 ~ {Passengers:[{id:"minecraft:drowned",LeftHanded:0,CanPickUpLoot:0b,Silent:1,IsBaby:1,ActiveEffects:[{Id:14,Amplifier:1,Duration:2147483647}],Tags:["peter"]}],Tags:["peter","unscanned"],Silent:1,ActiveEffects:[{Id:13,Amplifier:1,Duration:2147483647},{Id:14,Amplifier:1,Duration:2147483647}]}
-summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:0b,Marker:1b,NoBasePlate:1b,Tags:["peter_face","unscanned"],ArmorItems:[{},{},{},{id:"prismarine_shard",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}]}
+summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:0b,Marker:1b,NoBasePlate:1b,Tags:["peter_face","unscanned"],ArmorItems:[{},{},{},{id:"prismarine_shard",components:{"minecraft:custom_model_data":1}}],HandItems:[{},{}]}
 summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:0b,Marker:1b,NoBasePlate:1b,Tags:["peter_body1","unscanned"],ArmorItems:[{},{},{},{id:"red_concrete",Count:1b}],HandItems:[{},{}]}
 summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:0b,Marker:1b,NoBasePlate:1b,Tags:["peter_body2","unscanned"],ArmorItems:[{},{},{},{id:"red_concrete",Count:1b}],HandItems:[{},{}]}
 summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:0b,Marker:1b,NoBasePlate:1b,Tags:["peter_body3","unscanned"],ArmorItems:[{},{},{},{id:"red_concrete",Count:1b}],HandItems:[{},{}]}

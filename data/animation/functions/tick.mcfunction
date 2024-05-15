@@ -1,8 +1,8 @@
 execute as @e[team=sirenas] unless entity @s[nbt={ActiveEffects:[{Id:13}]}] run function animation:sirenas
 function animation:peter_function
 function animation:bob_function
-function animation:buzo_icon
-execute as @a[tag=buzo] run function animation:buzo
+execute as @a[predicate=animation:buzo] run function animation:buzo_icon
+execute as @a if predicate animation:buzo run function animation:buzo
 #execute as @a[tag=sonar] run function animation:sonar
 execute as @a store result score @s chunkX run data get entity @s Pos[0] 0.0625
 execute as @a store result score @s chunkZ run data get entity @s Pos[2] 0.0625
