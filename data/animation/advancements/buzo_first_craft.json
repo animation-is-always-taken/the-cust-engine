@@ -8,8 +8,7 @@
     },
     "title": "Buceando",
     "description": "Craftea un traje de buzo",
-    "frame": "task",
-    "show_toast": true,
+    "frame": "goal",
     "announce_to_chat": true
   },
   "criteria": {
@@ -19,6 +18,7 @@
         "player": [
           {
             "condition": "minecraft:entity_properties",
+            "entity": "this",
             "predicate": {}
           }
         ],
@@ -26,5 +26,6 @@
       }
     }
   },
-  "rewards": {}
+  "rewards": {},
+  "sends_telemetry_event": true
 }
