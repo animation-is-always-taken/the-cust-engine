@@ -4,3 +4,5 @@ scoreboard objectives add bob_count dummy
 scoreboard objectives add peter_count dummy
 scoreboard objectives add cm_count dummy
 scoreboard objectives add rng dummy
+scoreboard objectives add chunkz dummy
+scoreboard objectives add chunky dummy
