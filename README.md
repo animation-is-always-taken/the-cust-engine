@@ -32,5 +32,3 @@ in short: a lot of commands to try to recreate subnautica with some creative lib
 the geyser/bedrock files and java resource pack are here https://github.com/animation-is-always-taken/cust-engine-extras
 
 every file with .dis/.disabled/.old is eather a backup, 1.20.4 branch code or old code that's useless or unoptimized
-
-i forgot to add the commands that set up the scoreboards on load.mcfunction, i'll do it eventually, so if you want to use this you're going to have to add them by hand (for now)
