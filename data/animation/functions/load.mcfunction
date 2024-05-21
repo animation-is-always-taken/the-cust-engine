@@ -5,4 +5,4 @@ scoreboard objectives add peter_count dummy
 scoreboard objectives add cm_count dummy
 scoreboard objectives add rng dummy
 scoreboard objectives add chunkZ dummy
-scoreboard objectives add chunkY dummy
+scoreboard objectives add chunkX dummy
