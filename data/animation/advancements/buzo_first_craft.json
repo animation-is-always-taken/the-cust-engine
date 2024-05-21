@@ -12,7 +12,7 @@
     "announce_to_chat": true
   },
   "criteria": {
-    "requirement": {
+    "buzo_helmet": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": [
@@ -24,8 +24,35 @@
         ],
         "recipe_id": "minecraft:buzo_helmet"
       }
+    },
+    "buzo_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:buzo_chestplate"
+      }
+    },
+    "buzo_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:buzo_leggings"
+      }
+    },
+    "buzo_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:buzo_boots"
+      }
     }
   },
+  "requirements": [
+    [
+      "buzo_helmet",
+      "buzo_chestplate",
+      "buzo_leggings",
+      "buzo_boots"
+    ]
+  ],
   "rewards": {},
   "sends_telemetry_event": true
 }
+
