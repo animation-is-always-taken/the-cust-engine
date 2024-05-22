@@ -1,7 +1,6 @@
+this is an experimental branch that will be merged with main as soon as everything is properly ported
 
-THIS IS A TEST BRANCH TO PORT THIS TO 1.20.6 EVERYTHING HERE IS EXPERIMENTAL EVEN IF IT SOMEHOW ISN'T BROKEN
-
-a geyser-compatible datapack that adds:
+this is a geyser-compatible datapack that adds:
 
 -custom mobs
 
