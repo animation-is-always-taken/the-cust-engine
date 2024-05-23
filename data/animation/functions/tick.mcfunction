@@ -1,7 +1,6 @@
 execute as @e[team=sirenas] unless entity @s[nbt={ActiveEffects:[{Id:13}]}] run function animation:sirenas
 function animation:peter_function
 function animation:bob_function
-function animation:bob_spawner
 execute as @e[type=armor_stand,tag=bob_spawner] run function animation:bob_spawner
 execute as @a[predicate=animation:buzo] run function animation:buzo_icon
 execute as @a if predicate animation:buzo run function animation:buzo
