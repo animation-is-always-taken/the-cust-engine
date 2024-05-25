@@ -1,3 +1,6 @@
+### this branch is outdated and abandoned
+
+
 a geyser-compatible datapack that adds:
 
 -custom mobs
