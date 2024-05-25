@@ -1,0 +1,1 @@
+give @s armor_stand[custom_model_data=1,entity_data={id:"minecraft:armor_stand",ShowArms:0b,Small:1b,Marker:1b,Invisible:1b,Tags:["bob_spawner"]}] 1

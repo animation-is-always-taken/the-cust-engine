@@ -1,2 +1,10 @@
-advancement revoke @s only animation:buzo_start
-tag @s add buzo
+execute as @a if predicate animation:buzo run function animation:buzo
+execute as @a if predicate animation:buzo_copper run function animation:buzo
+execute as @a if predicate animation:buzo_gold run function animation:buzo
+execute as @a if predicate animation:buzo_diamond run function animation:buzo
+execute as @a if predicate animation:buzo_redstone run function animation:buzo
+execute as @a if predicate animation:buzo_quartz run function animation:buzo
+execute as @a if predicate animation:buzo_lapis run function animation:buzo
+execute as @a if predicate animation:buzo_emerald run function animation:buzo
+execute as @a if predicate animation:buzo_amethyst run function animation:buzo
+execute as @a if predicate animation:buzo_netherite run function animation:buzo
