@@ -1,5 +1,4 @@
-this is an experimental branch that will be merged with main as soon as everything is properly ported
-
+# The cust engine
 this is a geyser-compatible datapack that adds:
 
 -custom mobs
@@ -8,9 +7,7 @@ this is a geyser-compatible datapack that adds:
 
 -a custom armor trim
 
--an armor trim detection system (half-broken)
-
--a time detection system (sorta)
+-an armor trim detection system
 
 -events that happen once a day
 
@@ -22,7 +19,7 @@ this is a geyser-compatible datapack that adds:
 
 -loose files
 
--buged the bundle
+-added the bundle
 
 -removed herobrine
 
