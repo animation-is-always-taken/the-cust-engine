@@ -11,6 +11,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
+  "parent": "animation:cust_root",
   "criteria": {
     "buzo_helmet": {
       "trigger": "minecraft:recipe_crafted",
@@ -44,15 +45,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "buzo_helmet",
-      "buzo_chestplate",
-      "buzo_leggings",
-      "buzo_boots"
-    ]
-  ],
   "rewards": {},
   "sends_telemetry_event": true
 }
-

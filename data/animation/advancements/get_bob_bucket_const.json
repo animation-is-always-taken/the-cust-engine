@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:salmon_bucket",
+            "components": {
+              "minecraft:custom_name": "bob"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "animation:give_bob_spawner"
+  },
+  "sends_telemetry_event": true
+}

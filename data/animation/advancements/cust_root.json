@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_crystals",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 2
+      }
+    },
+    "title": "Bob",
+    "description": "Observa tu progreso",
+    "background": "minecraft:textures/gui/advancements/backgrounds/cust.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "armor_get": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {}
+    }
+  },
+  "sends_telemetry_event": true
+}
