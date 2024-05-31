@@ -1,0 +1,1 @@
+execute in minecraft:the_end as @a[tag=endtrapped] at @s unless entity @s[x=-700,y=10,z=682,dx=190,dy=128,dz=-260] run say hi

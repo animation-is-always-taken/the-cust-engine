@@ -1,0 +1,1 @@
+execute in minecraft:overworld positioned -1667 140 500 run place template minecraft:zepelling_ov
