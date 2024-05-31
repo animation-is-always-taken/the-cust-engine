@@ -1,0 +1,10 @@
+{
+  "parent": "animation:cust/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "sends_telemetry_event": true
+}
