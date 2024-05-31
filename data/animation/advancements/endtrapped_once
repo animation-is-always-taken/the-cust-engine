@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_shard",
+      "components": {
+        "minecraft:custom_model_data": 2
+      }
+    },
+    "title": "Xen",
+    "description": "quedate atrapado en el end",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "animation:cust_root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "sends_telemetry_event": true
+}
