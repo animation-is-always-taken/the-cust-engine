@@ -4,17 +4,17 @@
     "item": "minecraft:copper_block"
   },
   "base": {
-    "item": "minecraft:chainmail_helmet"
+    "item": "minecraft:chainmail_leggings"
   },
   "addition": {
-    "item": "minecraft:iron_ingot"
+    "item": "minecraft:quartz"
   },
   "result": {
-    "id": "minecraft:chainmail_helmet",
+    "id": "minecraft:chainmail_leggings",
     "count": 1,
     "components": {
       "trim": {
-        "material": "minecraft:iron",
+        "material": "minecraft:quartz",
         "pattern": "minecraft:buzo"
       },
       "minecraft:custom_model_data": 1

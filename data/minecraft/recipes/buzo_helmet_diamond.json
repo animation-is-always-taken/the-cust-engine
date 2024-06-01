@@ -7,14 +7,14 @@
     "item": "minecraft:chainmail_helmet"
   },
   "addition": {
-    "item": "minecraft:iron_ingot"
+    "item": "minecraft:diamond"
   },
   "result": {
     "id": "minecraft:chainmail_helmet",
     "count": 1,
     "components": {
       "trim": {
-        "material": "minecraft:iron",
+        "material": "minecraft:diamond",
         "pattern": "minecraft:buzo"
       },
       "minecraft:custom_model_data": 1

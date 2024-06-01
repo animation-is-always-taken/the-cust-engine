@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:chainmail_leggings"
+    },
+    {
+      "item": "minecraft:copper_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:chainmail_leggings",
+    "components": {
+      "minecraft:custom_model_data": 1,
+      "minecraft:trim": {
+        "material": "minecraft:diamond",
+        "pattern": "minecraft:buzo"
+      }
+    }
+  }
+}

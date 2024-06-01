@@ -4,17 +4,17 @@
     "item": "minecraft:copper_block"
   },
   "base": {
-    "item": "minecraft:chainmail_helmet"
+    "item": "minecraft:chainmail_chestplate"
   },
   "addition": {
-    "item": "minecraft:iron_ingot"
+    "item": "minecraft:amethyst_shard"
   },
   "result": {
-    "id": "minecraft:chainmail_helmet",
+    "id": "minecraft:chainmail_chestplate",
     "count": 1,
     "components": {
       "trim": {
-        "material": "minecraft:iron",
+        "material": "minecraft:amethyst",
         "pattern": "minecraft:buzo"
       },
       "minecraft:custom_model_data": 1

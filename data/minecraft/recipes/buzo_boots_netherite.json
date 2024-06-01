@@ -4,17 +4,17 @@
     "item": "minecraft:copper_block"
   },
   "base": {
-    "item": "minecraft:chainmail_helmet"
+    "item": "minecraft:chainmail_boots"
   },
   "addition": {
-    "item": "minecraft:iron_ingot"
+    "item": "minecraft:netherite_ingot"
   },
   "result": {
-    "id": "minecraft:chainmail_helmet",
+    "id": "minecraft:chainmail_boots",
     "count": 1,
     "components": {
       "trim": {
-        "material": "minecraft:iron",
+        "material": "minecraft:netherite",
         "pattern": "minecraft:buzo"
       },
       "minecraft:custom_model_data": 1
