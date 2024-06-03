@@ -11,7 +11,7 @@ execute as @e[type=minecraft:cod,tag=!scan] at @s run function animation:bob_spa
 execute as @e[type=minecraft:drowned,tag=!scan] at @s run function animation:peter_spawn_check
 execute if predicate animation:night_check if predicate animation:1in10 run function animation:caleuche_ov
 execute if predicate animation:day_check run function animation:caleuche_ov_day
-execute as @a[tag=endtrapped] unless predicate animation:endtrapped run tp @s -591 60 567
+execute as @a[tag=endtrapped,predicate=!animation:endtrapped] at @s run function animation:endtrap_leave
 function animation:spillover_func
 function animation:minecarts_tren
 execute at @e[type=armor_stand,tag=tren,limit=1] run tp @e[type=minecraft:block_display,distance=..20] ~-0.510 ~-3 ~-0.5 ~180 ~
