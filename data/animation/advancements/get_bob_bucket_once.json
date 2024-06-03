@@ -6,8 +6,16 @@
         "minecraft:custom_model_data": 1
       }
     },
-    "title": "Para llevar",
-    "description": "Llévate a bob en una cubeta",
+    "title": [
+      {
+        "translate": "advancements.cust.bob.bucket.title"
+      }
+    ],
+    "description": [
+      {
+        "translate": "advancements.cust.bob.bucket.desc"
+      }
+    ],
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true

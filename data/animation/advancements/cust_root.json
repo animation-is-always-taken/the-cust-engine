@@ -7,8 +7,12 @@
         "minecraft:custom_model_data": 2
       }
     },
-    "title": "Bob",
-    "description": "Observa tu progreso",
+    "title": {
+      "translate": "advancements.cust.root.title"
+    },
+    "description": {
+      "translate": "advancements.cust.root.desc"
+    },
     "background": "minecraft:textures/gui/advancements/backgrounds/cust.png",
     "show_toast": false,
     "announce_to_chat": false

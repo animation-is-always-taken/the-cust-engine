@@ -1,10 +1,12 @@
 {
-  "parent": "animation:cust/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible",
       "conditions": {}
     }
+  },
+  "rewards": {
+    "function": "animation:endtrap_enter"
   },
   "sends_telemetry_event": true
 }

@@ -6,8 +6,12 @@
         "minecraft:custom_model_data": 2
       }
     },
-    "title": "Xen",
-    "description": "Quedate atrapado en el end",
+    "title": {
+      "translate": "advancements.cust.xen.title"
+    },
+    "description": {
+      "translate": "advancements.cust.xen.desc"
+    },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true

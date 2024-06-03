@@ -6,8 +6,12 @@
         "minecraft:custom_model_data": 1
       }
     },
-    "title": "Buceando",
-    "description": "Craftea un traje de buzo",
+    "title": {
+      "translate": "advancements.cust.buzo.title"
+    },
+    "description": {
+      "translate": "advancements.cust.buzo.desc"
+    },
     "frame": "goal",
     "announce_to_chat": true
   },
