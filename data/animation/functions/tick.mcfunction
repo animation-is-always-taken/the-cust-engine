@@ -6,7 +6,6 @@ execute as @a if predicate animation:buzo run function animation:buzo
 execute as @a store result score @s chunkX run data get entity @s Pos[0] 0.0625
 execute as @a store result score @s chunkZ run data get entity @s Pos[2] 0.0625
 execute as @a if predicate animation:sonar run title @s actionbar ["",{"text":"[","color":"aqua"},{"score":{"name":"@s","objective":"chunkX"},"color":"aqua"},{"text":",","color":"aqua"},{"score":{"name":"@s","objective":"chunkZ"},"color":"aqua"},{"text":"]","color":"aqua"}]
-execute as @a if predicate animation:sonar2 run title @s actionbar ["",{"text":"[","color":"aqua"},{"score":{"name":"@s","objective":"chunkX"},"color":"aqua"},{"text":",","color":"aqua"},{"score":{"name":"@s","objective":"chunkZ"},"color":"aqua"},{"text":"]","color":"aqua"}]
 execute as @e[type=minecraft:cod,tag=!scan] at @s run function animation:bob_spawn_check
 execute as @e[type=minecraft:drowned,tag=!scan] at @s run function animation:peter_spawn_check
 execute as @a[tag=endtrapped,predicate=!animation:endtrapped] at @s run function animation:endtrap_leave
