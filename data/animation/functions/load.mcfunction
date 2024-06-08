@@ -1,2 +1,9 @@
 tellraw @a {"text": "cust engine 0.03 loaded", "color": "#0000FF"}
 team add sirenas
+scoreboard objectives add bob_id dummy
+scoreboard objectives add peter_id dummy
+scoreboard objectives add cm_count dummy
+scoreboard objectives add chunkX dummy
+scoreboard objectives add chunkZ dummy
+scoreboard objectives add rng dummy
+scoreboard objectives add bob_cap dummy
