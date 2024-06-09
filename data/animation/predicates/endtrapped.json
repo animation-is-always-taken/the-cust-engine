@@ -3,6 +3,12 @@
   "entity": "this",
   "predicate": {
     "location": {
+      "position": {
+        "y": {
+          "min": 10,
+          "max": 138
+        }
+      },
       "biomes": "animation:endtrap",
       "dimension": "minecraft:the_end"
     }

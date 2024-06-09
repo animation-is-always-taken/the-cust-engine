@@ -7,7 +7,9 @@
         "items": [
           "minecraft:prismarine_shard"
         ],
-        "nbt": "{CustomModelData:2}"
+        "components": {
+          "minecraft:custom_model_data": 2
+        }
       }
     }
   }
