@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:0b,Marker:1b,NoBasePlate:1b,Tags:["endtrap"],ArmorItems:[{},{},{},{}],HandItems:[{id:"prismarine_shard",components:{"minecraft:custom_model_data":5}},{}]}
