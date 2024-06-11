@@ -1,5 +1,19 @@
 {
-  "parent": "animation:cust_root",
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_shard",
+      "components": {
+        "minecraft:custom_model_data": 6
+      }
+    },
+    "title": {
+      "translate": "advancement.cust.trade_endtrapp.title"
+    },
+    "description": {
+      "translate": "advancement.cust.trade_endtrap.desc"
+    }
+  },
+  "parent": "animation:endtrapped_once",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:villager_trade",
@@ -27,3 +41,4 @@
   },
   "sends_telemetry_event": true
 }
+
