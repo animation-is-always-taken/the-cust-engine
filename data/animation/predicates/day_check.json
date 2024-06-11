@@ -2,6 +2,6 @@
   "condition": "minecraft:time_check",
   "value": {
     "min": 0,
-    "max": 20
+    "max": 25
   }
 }
