@@ -1,0 +1,15 @@
+execute positioned 33 27 39 run function animation:give_endtrap
+execute positioned -147 70 348 run function animation:give_endtrap
+execute positioned 420 52 -69 run function animation:give_endtrap
+execute positioned 152 64 -41 run function animation:give_endtrap
+execute positioned 222 58 -141 run function animation:give_endtrap
+execute positioned 30 43 93 run function animation:give_endtrap
+execute positioned 235 50 -383 run function animation:give_endtrap
+execute positioned -63 43 -510 run function animation:give_endtrap
+execute positioned -98 48 -556 run function animation:give_endtrap
+execute positioned -674 84 -802 run function animation:give_endtrap
+execute positioned -885 69 -719 run function animation:give_endtrap
+execute positioned -572 87 -857 run function animation:give_endtrap
+execute positioned -872 67 -615 run function animation:give_endtrap
+execute positioned 254 84 -116 run function animation:give_endtrap
+execute positioned 318 90 -298 run function animation:give_endtrap
