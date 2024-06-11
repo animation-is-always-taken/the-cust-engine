@@ -1,0 +1,29 @@
+{
+  "parent": "animation:cust_root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "animation:endtrap",
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ],
+        "villager": {
+          "location": {
+            "biomes": "animation:endtrap",
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}
