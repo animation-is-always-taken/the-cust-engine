@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "advancement.cust.hero_of_endtrap.title"
+    },
+    "description": {
+      "translate": "advancement.cust.hero_of_endtrap.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "animation:endtrapped_once",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "animation:endtrap",
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "endtrap",
+      "Hero_of_the_village"
+    ]
+  ]
+}
