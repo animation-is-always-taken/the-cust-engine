@@ -1,22 +1,22 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:armor_stand",
+      "id": "minecraft:prismarine_shard",
       "components": {
         "minecraft:custom_model_data": 2
       }
     },
     "title": {
-      "translate": "advancements.cust.xen.title"
+      "translate": "advancements.cust.leave_endtrap.title"
     },
     "description": {
-      "translate": "advancements.cust.xen.desc"
+      "translate": "advancements.cust.leave_endtrap.desc"
     },
-    "frame": "challenge",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "animation:cust_root",
+  "parent": "animation:endtrapped_once",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible",

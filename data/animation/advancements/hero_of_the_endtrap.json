@@ -1,19 +1,22 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:end_stone"
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:custom_model_data": 1
+      }
     },
     "title": {
-      "translate": "advancement.cust.hero_of_endtrap.title"
+      "translate": "advancements.cust.hero_of_endtrap.title"
     },
     "description": {
-      "translate": "advancement.cust.hero_of_endtrap.desc"
+      "translate": "advancements.cust.hero_of_endtrap.desc"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "animation:endtrapped_once",
+  "parent": "animation:trade_in_endtrap",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:hero_of_the_village",
@@ -26,11 +29,5 @@
         }
       }
     }
-  },
-  "requirements": [
-    [
-      "endtrap",
-      "Hero_of_the_village"
-    ]
-  ]
+  }
 }

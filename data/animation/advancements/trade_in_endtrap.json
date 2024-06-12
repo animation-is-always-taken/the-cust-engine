@@ -7,10 +7,10 @@
       }
     },
     "title": {
-      "translate": "advancement.cust.trade_endtrapp.title"
+      "translate": "advancements.cust.trade_endtrap.title"
     },
     "description": {
-      "translate": "advancement.cust.trade_endtrap.desc"
+      "translate": "advancements.cust.trade_endtrap.desc"
     }
   },
   "parent": "animation:endtrapped_once",
