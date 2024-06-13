@@ -1,0 +1,36 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "armor.head": {
+        "predicates": {
+          "minecraft:trim": {
+            "pattern": "minecraft:buzo"
+          }
+        }
+      },
+      "armor.chest": {
+        "predicates": {
+          "minecraft:trim": {
+            "pattern": "minecraft:buzo"
+          }
+        }
+      },
+      "armor.legs": {
+        "predicates": {
+          "minecraft:trim": {
+            "pattern": "minecraft:buzo"
+          }
+        }
+      },
+      "armor.feet": {
+        "predicates": {
+          "minecraft:trim": {
+            "pattern": "minecraft:buzo"
+          }
+        }
+      }
+    }
+  }
+}

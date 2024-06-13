@@ -1,0 +1,44 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "armor.head": {
+        "items": "#minecraft:trimmable_armor",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:buzo"
+          }
+        }
+      },
+      "armor.chest": {
+        "items": "#minecraft:trimmable_armor",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:buzo"
+          }
+        }
+      },
+      "armor.legs": {
+        "items": "#minecraft:trimmable_armor",
+        "components": {
+          "trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:buzo"
+          }
+        }
+      },
+      "armor.feet": {
+        "items": "#minecraft:trimmable_armor",
+        "components": {
+          "trim": {
+            "material": "minecraft:copper",
+            "pattern": "minecraft:buzo"
+          }
+        }
+      }
+    }
+  }
+}
