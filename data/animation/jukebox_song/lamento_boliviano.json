@@ -1,0 +1,8 @@
+{
+  "sound_event": "minecraft:music_disc.lamento_boliviano",
+  "description": {
+    "translate": "jukebox_song.cust.lamentobolivianl"
+  },
+  "length_in_seconds": 185,
+  "comparator_output": 2
+}
