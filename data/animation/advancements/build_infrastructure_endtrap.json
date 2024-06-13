@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_bricks",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.cust.trapped_endtrap.title"
+    },
+    "description": {
+      "translate": "advancements.cust.trapped_endtrap.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "animation:endtrapped_once",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "sends_telemetry_event": false
+}
