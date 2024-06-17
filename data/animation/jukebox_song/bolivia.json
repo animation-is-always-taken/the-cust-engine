@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "animation:music_disc.bolivia"
+  },
+  "description": {
+    "translate": "jukebox_song.minecraft.bolivia"
+  },
+  "length_in_seconds": 224,
+  "comparator_output": 15
+}

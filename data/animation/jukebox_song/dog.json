@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "animation:music_disc.dog"
+  },
+  "description": {
+    "translate": "jukebox_song.minecraft.dog"
+  },
+  "length_in_seconds": 184,
+  "comparator_output": 15
+}
