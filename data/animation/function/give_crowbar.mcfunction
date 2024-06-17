@@ -1,0 +1,1 @@
+give @s minecraft:iron_sword[minecraft:custom_model_data=1,minecraft:item_name="{'translate':cust.item.crowbar}"]

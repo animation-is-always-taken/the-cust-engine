@@ -25,8 +25,8 @@ execute as @e[tag=end_mail,predicate=animation:in_end] run tag @s remove end_mai
 tag @e[predicate=animation:in_overworld] remove endtrap_failsafe
 tag @e[tag=endtrap_failsafe,tag=!endtrapped] add endtrapped 
 function animation:spillover_func
-#execute if predicate animation:night_check run function animation:endtrap_spawner
-#execute if predicate animation:day_check run function animation:endtrap_despawner
+execute if predicate animation:night_check run function animation:endtrap_spawner
+execute if predicate animation:day_check run function animation:endtrap_despawner
 
 
 #caleuche
