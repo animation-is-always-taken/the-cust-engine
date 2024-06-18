@@ -1,2 +1,2 @@
-setblock x y z water
-spawnpoint @s x y z
+spawnpoint @a[distance..20=] x y z
+setblock ~ ~ ~ water
