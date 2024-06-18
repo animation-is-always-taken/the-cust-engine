@@ -1,0 +1,2 @@
+spawnpoint @a[x=#,y=#,z=#,dx=#,dy=#,dz=#] x y z
+setblock ~ ~ ~ water
