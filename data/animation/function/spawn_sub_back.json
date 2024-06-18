@@ -1,0 +1,2 @@
+setblock x y z water
+spawnpoint @s x y z
