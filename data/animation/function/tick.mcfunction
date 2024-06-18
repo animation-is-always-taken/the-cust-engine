@@ -22,6 +22,7 @@ execute as @e[tag=endtrapped,predicate=!animation:endtrapped] run function anima
 execute as @e[tag=end_mail,predicate=animation:in_overworld] run execute in minecraft:the_end run tp @s -609 61 537
 execute as @e[tag=end_mail,predicate=animation:in_end] run function animation:endtrap_enter
 execute as @e[tag=end_mail,predicate=animation:in_end] run tag @s remove end_mail
+tag @e[predicate=animation:in_overworld] remove endtrap
 tag @e[predicate=animation:in_overworld] remove endtrap_failsafe
 tag @e[tag=endtrap_failsafe,tag=!endtrapped] add endtrapped 
 function animation:spillover_func
