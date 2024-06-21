@@ -1,0 +1,24 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item":"minecraft:netherite_boots"
+        },
+        {
+            "item":"minecraft:quartz"
+        },
+        {
+            "item":"minecraft:copper_block"
+        }
+    ],
+    "result":{
+        "id":"netherite_boots",
+        "components":{
+            "minecraft:custom_model_data":1,
+            "minecraft:trim":{
+                "material":"minecraft:quartz",
+                "pattern":"minecraft:buzo"
+            }
+        }
+    }
+}
