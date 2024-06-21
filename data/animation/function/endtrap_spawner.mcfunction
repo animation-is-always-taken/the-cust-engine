@@ -14,7 +14,7 @@ execute positioned -872 67 -615 run function animation:give_endtrap
 execute positioned 254 84 -116 run function animation:give_endtrap
 execute positioned 318 90 -298 run function animation:give_endtrap
 execute positioned -104 85 191 run function animation:give_endtrap
-#execute positioned x y z run function animation:give_endtrap
+execute positioned -115 56 -645 run function animation:give_endtrap
 #execute positioned x y z run function animation:give_endtrap
 #execute positioned x y z run function animation:give_endtrap
 #execute positioned x y z run function animation:give_endtrap
