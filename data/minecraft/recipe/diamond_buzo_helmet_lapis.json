@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:copper_block"
+  },
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "addition": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "result": {
+    "id": "minecraft:diamond_helmet",
+    "count": 1,
+    "components": {
+      "trim": {
+        "material": "minecraft:lapis",
+        "pattern": "minecraft:buzo"
+      },
+      "minecraft:custom_model_data": 1
+    }
+  }
+}

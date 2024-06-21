@@ -1,0 +1,24 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item":"minecraft:diamond_chestplate"
+        },
+        {
+            "item":"minecraft:iron_ingot"
+        },
+        {
+            "item":"minecraft:copper_block"
+        }
+    ],
+    "result":{
+        "id":"diamond_chestplate",
+        "components":{
+            "minecraft:custom_model_data":1,
+            "minecraft:trim":{
+                "material":"minecraft:iron",
+                "pattern":"minecraft:buzo"
+            }
+        }
+    }
+}

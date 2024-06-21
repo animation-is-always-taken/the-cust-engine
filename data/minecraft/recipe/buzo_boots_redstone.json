@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:copper_block"
+  },
+  "base": {
+    "item": "minecraft:chainmail_boots"
+  },
+  "addition": {
+    "item": "minecraft:redstone"
+  },
+  "result": {
+    "id": "minecraft:chainmail_boots",
+    "count": 1,
+    "components": {
+      "trim": {
+        "material": "minecraft:redstone",
+        "pattern": "minecraft:buzo"
+      },
+      "minecraft:custom_model_data": 1
+    }
+  }
+}

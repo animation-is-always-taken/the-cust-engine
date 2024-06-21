@@ -1,0 +1,24 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item":"minecraft:chainmail_helmet"
+        },
+        {
+            "item":"minecraft:iron_ingot"
+        },
+        {
+            "item":"minecraft:copper_block"
+        }
+    ],
+    "result":{
+        "id":"chainmail_helmet",
+        "components":{
+            "minecraft:custom_model_data":1,
+            "minecraft:trim":{
+                "material":"minecraft:iron",
+                "pattern":"minecraft:buzo"
+            }
+        }
+    }
+}

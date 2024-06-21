@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:copper_block"
+  },
+  "base": {
+    "item": "minecraft:chainmail_boots"
+  },
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:chainmail_boots",
+    "count": 1,
+    "components": {
+      "trim": {
+        "material": "minecraft:copper",
+        "pattern": "minecraft:buzo"
+      },
+      "minecraft:custom_model_data": 1
+    }
+  }
+}

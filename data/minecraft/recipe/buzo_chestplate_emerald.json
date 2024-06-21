@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:copper_block"
+  },
+  "base": {
+    "item": "minecraft:chainmail_chestplate"
+  },
+  "addition": {
+    "item": "minecraft:emerald"
+  },
+  "result": {
+    "id": "minecraft:chainmail_chestplate",
+    "count": 1,
+    "components": {
+      "trim": {
+        "material": "minecraft:emerald",
+        "pattern": "minecraft:buzo"
+      },
+      "minecraft:custom_model_data": 1
+    }
+  }
+}

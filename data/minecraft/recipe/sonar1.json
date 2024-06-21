@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "animation",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:prismarine_shard"
+      }
+    ],
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "result": {
+    "id": "minecraft:prismarine_shard",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 2,
+      "minecraft:item_name": "Localizador"
+    }
+  }
+}

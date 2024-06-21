@@ -1,0 +1,24 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item":"minecraft:diamond_helmet"
+        },
+        {
+            "item":"minecraft:gold_ingot"
+        },
+        {
+            "item":"minecraft:copper_block"
+        }
+    ],
+    "result":{
+        "id":"diamond_helmet",
+        "components":{
+            "minecraft:custom_model_data":1,
+            "minecraft:trim":{
+                "material":"minecraft:gold",
+                "pattern":"minecraft:buzo"
+            }
+        }
+    }
+}
