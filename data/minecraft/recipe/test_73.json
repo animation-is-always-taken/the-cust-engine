@@ -1,0 +1,24 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item":"minecraft:golden_helmet"
+        },
+        {
+            "item":"minecraft:emerald"
+        },
+        {
+            "item":"minecraft:copper_block"
+        }
+    ],
+    "result":{
+        "id":"golden_helmet",
+        "components":{
+            "minecraft:custom_model_data":1,
+            "minecraft:trim":{
+                "material":"minecraft:emerald",
+                "pattern":"minecraft:buzo"
+            }
+        }
+    }
+}
