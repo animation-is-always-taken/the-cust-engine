@@ -31,8 +31,6 @@ execute if predicate animation:night_check if predicate animation:1in10 run func
 execute if predicate animation:day_check run function animation:caleuche_ov_day
 
 #tren, deshabilita despues del dia 1
-#function animation:minecarts_tren
-#execute at @e[type=armor_stand,tag=tren,limit=1] run tp @e[type=minecraft:block_display,distance=..20] ~-0.510 ~-3 ~-0.5 ~180 ~
-#execute at @e[type=minecart,limit=1,tag=tren] run tp @e[type=armor_stand,tag=tren,limit=1,distance=..3] ~ ~ ~ ~ ~
-
-#PORQUE NO FUNCIONAN LAS ENDTRAPS?
+function animation:minecarts_tren
+execute at @e[type=armor_stand,tag=tren,limit=1] run tp @e[type=minecraft:block_display,distance=..20] ~-0.510 ~-3 ~-0.5 ~180 ~
+execute at @e[type=minecart,limit=1,tag=tren] run tp @e[type=armor_stand,tag=tren,limit=1,distance=..3] ~ ~ ~ ~ ~
